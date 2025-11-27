@@ -12,3 +12,11 @@ import com.example.learnroomdatabase.view.HomeScreen
 import com.example.learnroomdatabase.view.route.DestinasiEntry
 import com.example.learnroomdatabase.view.route.DestinasiHome
 
+@Composable
+fun SiswaApp(
+    navController: NavHostController = rememberNavController(),
+    modifier: Modifier = Modifier
+) {
+    HostNavigasi(navController = navController, modifier = modifier)
+}
+
